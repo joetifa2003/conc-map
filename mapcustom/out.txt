@@ -1,0 +1,9 @@
+goos: linux
+goarch: amd64
+pkg: github.com/joetifa2003/conc-map/mapcustom
+cpu: AMD Ryzen 7 5800H with Radeon Graphics         
+BenchmarkLFMap-16      	     848	   1427715 ns/op	 3194499 B/op	   27592 allocs/op
+BenchmarkSync-16       	    1896	    653121 ns/op	  175618 B/op	    4148 allocs/op
+BenchmarkConcMap-16    	     184	   6413433 ns/op	10559256 B/op	   19989 allocs/op
+PASS
+ok  	github.com/joetifa2003/conc-map/mapcustom	4.498s

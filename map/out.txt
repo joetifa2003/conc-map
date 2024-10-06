@@ -1,0 +1,11 @@
+goos: linux
+goarch: amd64
+pkg: github.com/joetifa2003/conc-map/map
+cpu: AMD Ryzen 7 5800H with Radeon Graphics         
+BenchmarkVsSync/concmap_1-16         	    8740	    144873 ns/op	   59084 B/op	    2022 allocs/op
+BenchmarkVsSync/concmap_10-16        	   14920	     81232 ns/op	   52672 B/op	    2079 allocs/op
+BenchmarkVsSync/concmap_50-16        	   19004	     62288 ns/op	   45209 B/op	    2210 allocs/op
+BenchmarkVsSync/concmap_100-16       	   17730	     68324 ns/op	   57421 B/op	    2384 allocs/op
+BenchmarkVsSync/concmap_150-16       	   16754	     72201 ns/op	   67510 B/op	    2523 allocs/op
+PASS
+ok  	github.com/joetifa2003/conc-map/map	8.967s
